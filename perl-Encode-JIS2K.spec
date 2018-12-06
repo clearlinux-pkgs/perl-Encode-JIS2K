@@ -81,12 +81,12 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/Encode/JIS2K.pm
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/Encode/JIS2K/2022JP3.pm
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/Encode/JIS2K.pm
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/Encode/JIS2K/2022JP3.pm
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/auto/Encode/JIS2K/JIS2K.so
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/Encode/JIS2K/JIS2K.so
 
 %files license
 %defattr(0644,root,root,0755)
