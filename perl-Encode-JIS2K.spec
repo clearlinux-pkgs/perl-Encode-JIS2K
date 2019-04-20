@@ -4,7 +4,7 @@
 #
 Name     : perl-Encode-JIS2K
 Version  : 0.03
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libe/libencode-jis2k-perl/libencode-jis2k-perl_0.03-1.debian.tar.xz
@@ -43,7 +43,7 @@ license components for the perl-Encode-JIS2K package.
 cd ..
 %setup -q -T -D -n Encode-JIS2K-0.03 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Encode-JIS2K-0.03/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Encode-JIS2K-0.03/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
