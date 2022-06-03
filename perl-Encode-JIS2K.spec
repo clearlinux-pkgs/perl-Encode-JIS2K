@@ -4,7 +4,7 @@
 #
 Name     : perl-Encode-JIS2K
 Version  : 0.03
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libe/libencode-jis2k-perl/libencode-jis2k-perl_0.03-1.debian.tar.xz
@@ -89,6 +89,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Encode/JIS2K.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Encode/JIS2K/2022JP3.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Encode/JIS2K/JIS2K.so
+/usr/lib/perl5/*
