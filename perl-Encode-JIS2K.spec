@@ -7,7 +7,7 @@
 #
 Name     : perl-Encode-JIS2K
 Version  : 0.05
-Release  : 26
+Release  : 27
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.05.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libe/libencode-jis2k-perl/libencode-jis2k-perl_0.03-1.debian.tar.xz
